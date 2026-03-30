@@ -21,7 +21,7 @@ while True:
     workout = random.sample(exercises, 3)
 
     for exercise in workout:
-        print("-", exercises)
+        print("-", exercise)
 
     # Ask user if they want another workout
     again = input("\nGenerate another workout? (y/n): ").lower()
